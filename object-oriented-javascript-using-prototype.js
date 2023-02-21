@@ -1,7 +1,7 @@
 function User(name, email) {
   this.name = name;
-    this.email = email;
-    this.online = false;
+  this.email = email;
+  this.online = false;
 }
 
 User.prototype.login = function(){
