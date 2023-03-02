@@ -1,4 +1,4 @@
-function beautifulDays(n) {
+function viralAdvertising(n) {
   let shared = 5;
   let sharedWith = 3;
   let commulative = 0;
@@ -11,4 +11,4 @@ function beautifulDays(n) {
   return commulative;
 }
 
-console.log(beautifulDays(5));
+console.log(viralAdvertising(5));
