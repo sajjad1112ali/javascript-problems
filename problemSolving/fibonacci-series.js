@@ -1,13 +1,7 @@
 function fibonacciSeries(n) {
-  let firstNumber = 1;
-  let secondNumber = 0;
-  let nextNumber = 0;
-  let arr = []
-  for (let i = 0; i < n; i++) {
-    nextNumber = firstNumber + secondNumber;
-    firstNumber = secondNumber;
-    secondNumber = nextNumber;
-    arr.push(secondNumber)
+  let arr = [0, 1]
+  for (let i = 2; i < n; i++) {
+    arr[i] = arr[i-1] + arr[i-2];
   }
   return arr;
 }
